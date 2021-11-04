@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Mumara ONE Pricing | Mumara</title>
+
+  <meta name="description" content="Send your campaign without the fear of running out email credits, subscribe Mumara One to get your email marketer auto deployed on cloud." />
+  <meta name="robots" content="max-image-preview:large" />
+  <meta name="keywords" content="purchase one,mumara one pricing,subscribe mumara one" />
+  <link rel="canonical" href="https://www.mumara.com/one/pricing/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="Mumara" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Mumara ONE Pricing" />
+  <meta property="og:description" content="Mumara ONE Pricing" />
+  <meta property="og:url" content="https://www.mumara.com/one/pricing/" />
+  <meta property="og:image" content="https://www.mumara.com/wp-content/uploads/2019/03/Mumara-Feature-Image.jpg" />
+  <meta property="og:image:secure_url" content="https://www.mumara.com/wp-content/uploads/2019/03/Mumara-Feature-Image.jpg" />
+  <meta property="og:image:width" content="1000" />
+  <meta property="og:image:height" content="800" />
+  <meta property="article:published_time" content="2019-12-03T14:52:07+00:00" />
+  <meta property="article:modified_time" content="2021-05-28T12:13:54+00:00" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:domain" content="www.mumara.com" />
+  <meta name="twitter:title" content="Mumara ONE Pricing" />
+  <meta name="twitter:description" content="Mumara ONE Pricing" />
+  <meta name="twitter:image" content="https://www.mumara.com/wp-content/uploads/2019/03/Mumara-Feature-Image.jpg" />
+
+  <!-- Favicons -->
+  <link href="../../assets/img/favicon.ico" rel="icon">
+  <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../../assets/css/style.css" rel="stylesheet">
+  <link href="../../assets/css/fonts.css" rel="stylesheet">
+  <link href="./css/mbSlider.css" rel="stylesheet" >
+  <link href="./css/style.css" rel="stylesheet" >
+</head>
+
+<body class="classic-pricing">
+
+    <div class="loading" id="loading" style="display: block;">
+        <div class="loader"></div>
+    </div>
+
+<section id="pricing2" class="pricing bg-white" data-aos="fade-up">
+    <div class="container aos-init aos-animate" data-aos="fade-left">
+        <div class="row gy-4 step1 row aos-init aos-animate" id="newPriceBlk" data-aos="fade-left">
+            <div class="col-md-8 range-block">
+                <div id="contactsrow">
+                <div class="form-group row">
+                    <h3>Your contact list size?</h3>
+                    <h5 class="emails12">Select the plan below as per your contact list size</h5>
+                    <p><input type="hidden" id="contact11" class="" ></p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4 base-block">
+                <h3>Your Plan!</h3>
+                <h5>' .  $names[0] . '</h5>
+                <p>Test the platform with no commitment</p>
+                <input type="hidden" id="pp1" value="' .  $prices[0] . '" />
+                <input type="hidden" id="fprice" />
+                <div class="plan">
+                    <h5 id="pricemain">'  . $price_first .  '</h5>
+                    <h5> / month</h5> 
+                </div>
+                <p> <a href="https://one.mumara.com/signup?pid=' .  $pids[0] . '" id="buy" class="btn btn-success">Order Now</a><a href="#" id="seeBrDwn" rel="noopener noreferrer" data-toggle="modal" data-target=".fusion-modal.seeBrDwn">See Cost Breakdown</a> </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="table2" class="pricing-table bg-light">
+    <div class="container" data-aos="fade-up">
+      <div class="row gy-4" data-aos="fade-left">
+        <div class="col-md-8 offset-md-2" data-aos="zoom-in" data-aos-delay="100">
+          <div class="features row" id="features-blk">
+            <div class="panel panel-product panel-default mb-4" id="product1">
+              <div class="panel-heading">
+                <h3 id="product-name">1 - 1,000</h3>
+                <div class=" product-price"><span><i>STARTING FROM</i></span>&nbsp;&nbsp; <span class="price" id="panel-head-price"><strong> '.  $price_first . ' </strong></span>
+                </div>
+              </div>
+              <div class="panel-body text-left">
+                <div class="row">
+                    <div class="product-feature col-md-4"> <span class="pull-left">Contacts</span> <span class="feature-value pull-right"><strong id="Contacts">1000</strong></span>
+                        <br>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" id="contacts-progress" role="progressbar" aria-valuenow="' . ($no_of_emails[0] / $no_of_emails[$array_count]) * 100  . '" aria-valuemin="0" aria-valuemax="100" style="width:' . ($no_of_emails[0] / $no_of_emails[$array_count]) * 100  . '%"></div>
+                        </div>
+                    </div>
+                    <div class="product-feature col-md-4"> <span class="pull-left">Daily Sending Limit</span> <span class="feature-value pull-right"><strong id="MonthlyEmails">200</strong></span>
+                        <br>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" id="emails-progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
+                        </div>
+                    </div>
+                    <div class="product-feature col-md-4"> <span class="pull-left">Monthly Quota</span> <span class="feature-value pull-right"><strong id="Transactional"> ' .  $transactional_array[0] . ' </strong></span>
+                        <br>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" id="transactional-progress" role="progressbar" aria-valuenow="' . ($transactional_array[0] / $transactional_array[$array_count]) * 100 . '" aria-valuemin="0" aria-valuemax="100" style="width:' . ($transactional_array[0] / $transactional_array[$array_count]) * 100 . '%"></div>
+                        </div>
+                    </div>
+                    <div class="product-feature col-md-4"> <span class="pull-left">Triggers</span> <span class="feature-value pull-right"><strong id="Segments">' .  $segments_array[0] . '</strong></span>
+                        <br>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" id="segments-progress" role="progressbar" aria-valuenow="' . ($segments_array[0] / $segments_array[$array_count]) * 100 . '" aria-valuemin="0" aria-valuemax="100" style="width:' . ($segments_array[0] / $segments_array[$array_count]) * 100 . '%"></div>
+                        </div>
+                    </div>
+                    <div class="product-feature col-md-4"> <span class="pull-left">Transactional Emails</span> <span class="feature-value pull-right"><strong id="Triggers">' .  $triggers_array[0] . '</strong></span>
+                        <br>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" id="triggers-progress" role="progressbar" aria-valuenow="' . ($triggers_array[0] / $triggers_array[$array_count]) * 100 . '" aria-valuemin="0" aria-valuemax="100" style="width:' . ($triggers_array[0] / $triggers_array[$array_count]) * 100 . '%"></div>
+                        </div>
+                    </div>
+                    <div class="product-feature col-md-4"> <span class="pull-left">Maximum Dedicated IPs</span> <span class="feature-value pull-right"><strong id="IP">' .  $ip_array[0] . '</strong></span>
+                        <br>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" id="ip-progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default" id="feature-list">
+              <div class="panel-heading">
+                <h4 id="list-name">Included With Every Plan</h4> </div>
+                <div class="panel-body">
+                  <div class="feature-container">
+                    <div class="row">
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Contact List Management 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Suppression Management 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Custom Fields 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Contacts Management 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Bulk Update 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Broadcast Editor 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Drip Campaigns 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Spintags 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Dynamic Content Tags 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Future Scheduling 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Bounce Processing 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Custom Bounce Rules 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Sending Domains 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Custom Tracking Domains 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Domain Keys Authentication 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Shared/Dedicated IPs 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Segmentation 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Triggers 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Web Forms 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Spam Processing 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Bounce Processing 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Custom Headers 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Geo Tracking 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Advanced Statistics 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Split Tests 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Community Support 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Support Desk 
+                        </div>
+                        <div class="product-feature col-md-4"> 
+                            <i class="bi bi-check blue"></i>&nbsp;&nbsp;Restful API 
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<div id="tab-666" class="tab-pane fusion-clearfix active in">
+    <div class="row package-pans">
+        <form action="" method="POST" id="packages" class="">
+            <div class="form-body">
+                <div id="step1">
+                    <div class="form-group step1 mb0">
+                        <div class="col-md-8 range-block">
+                            <div id="contactsrow" style="display:block; !important">
+                                <div class="form-group row">
+                                    <h3 style="margin-bottom: 15px">Your contact list size?</h3>
+                                    <h5 class="emails12">Select the plan below as per your contact list size</h5>
+                                    <div class="kt-ion-range-slider">
+                                        <input type="hidden" id="contact11" /> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 base-block">
+                            <h3>Your Plan!</h3>
+                            <h5>' .  $names[0] . '</h5>
+                            <p>Test the platform with no commitment</p>
+                            <input type="hidden" id="pp1" value="' .  $prices[0] . '" />
+                            <input type="hidden" id="fprice" />
+                            <div class="plan">
+                                <h5 id="pricemain">'  . $price_first .  '</h5>
+                                <h5> / month</h5> 
+                            </div>
+                            <a href="https://one.mumara.com/signup?pid=' .  $pids[0] . '" id="buy" class="btn btn-success">Order Now</a><a href="#" id="seeBrDwn" rel="noopener noreferrer" data-toggle="modal" data-target=".fusion-modal.seeBrDwn">See Cost Breakdown</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="features row" id="features-blk">
+        <div class="panel panel-product panel-default panel-primary" id="product1">
+            <div class="panel-heading">
+                <h3 class="panel-title pull-left" id="product-name">1 - 1000</h3>
+                <div class="pull-right text-right product-price"> <span class="pull-right text-right">
+                    <span><i>Starting from</i></span>&nbsp;&nbsp; <span class="price" id="panel-head-price"><strong>'.  $price_first . '</strong></span>
+                    <br> <span class="type"></span> </span>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <div class="panel-body text-left">
+                <div class="feature-container">
+                    <div class="row">
+                        <div class="product-feature col-md-4"> <span class="pull-left">Contacts</span> <span class="feature-value pull-right"><strong id="Contacts">500</strong></span>
+                            <br>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" id="contacts-progress" role="progressbar" aria-valuenow="' . ($no_of_emails[0] / $no_of_emails[$array_count]) * 100  . '" aria-valuemin="0" aria-valuemax="100" style="width:' . ($no_of_emails[0] / $no_of_emails[$array_count]) * 100  . '%"></div>
+                            </div>
+                        </div>
+                        <div class="product-feature col-md-4"> <span class="pull-left">Daily Sending Limit</span> <span class="feature-value pull-right"><strong id="MonthlyEmails">500</strong></span>
+                            <br>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" id="emails-progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
+                            </div>
+                        </div>
+                        <div class="product-feature col-md-4"> <span class="pull-left">Monthly Quota</span> <span class="feature-value pull-right"><strong id="Transactional"> ' .  $transactional_array[0] . ' </strong></span>
+                            <br>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" id="transactional-progress" role="progressbar" aria-valuenow="' . ($transactional_array[0] / $transactional_array[$array_count]) * 100 . '" aria-valuemin="0" aria-valuemax="100" style="width:' . ($transactional_array[0] / $transactional_array[$array_count]) * 100 . '%"></div>
+                            </div>
+                        </div>
+                        <div class="product-feature col-md-4"> <span class="pull-left">Triggers</span> <span class="feature-value pull-right"><strong id="Segments">' .  $segments_array[0] . '</strong></span>
+                            <br>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" id="segments-progress" role="progressbar" aria-valuenow="' . ($segments_array[0] / $segments_array[$array_count]) * 100 . '" aria-valuemin="0" aria-valuemax="100" style="width:' . ($segments_array[0] / $segments_array[$array_count]) * 100 . '%"></div>
+                            </div>
+                        </div>
+                        <div class="product-feature col-md-4"> <span class="pull-left">Transactional Emails</span> <span class="feature-value pull-right"><strong id="Triggers">' .  $triggers_array[0] . '</strong></span>
+                            <br>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" id="triggers-progress" role="progressbar" aria-valuenow="' . ($triggers_array[0] / $triggers_array[$array_count]) * 100 . '" aria-valuemin="0" aria-valuemax="100" style="width:' . ($triggers_array[0] / $triggers_array[$array_count]) * 100 . '%"></div>
+                            </div>
+                        </div>
+                        <div class="product-feature col-md-4"> <span class="pull-left">Maximum Dedicated IPs</span> <span class="feature-value pull-right"><strong id="IP">' .  $ip_array[0] . '</strong></span>
+                            <br>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" id="ip-progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default" id="feature-list">
+            <div class="panel-heading">
+                <h4 id="list-name">Included With Every Plan</h4> 
+            </div>
+            <div class="panel-body">
+                <div class="feature-container">
+                    <div class="row">
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Contact List Management </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Suppression Management </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Custom Fields </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Contacts Management </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Bulk Update </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Broadcast Editor </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Drip Campaigns </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Spintags </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Dynamic Content Tags </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Future Scheduling </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Bounce Processing </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Custom Bounce Rules </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Sending Domains </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Custom Tracking Domains </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Domain Keys Authentication </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Shared/Dedicated IPs </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Segmentation </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Triggers </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Web Forms </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Spam Processing </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Bounce Processing </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Custom Headers </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Geo Tracking </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Advanced Statistics </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Split Tests </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Community Support </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Support Desk </div>
+                        <div class="product-feature col-md-4"> <i class="bi bi-check blue"></i>&nbsp;&nbsp;Restful API </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" style="display:none;"> <span> Contacts </span> <span id="Contacts"> ' .  $no_of_emails[0] . '  </span> <span id="ContactsPerccent"> ' . ($no_of_emails[0] / $no_of_emails[$array_count]) * 100  . '%</span>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" id="contacts-progress" role="progressbar" aria-valuenow="' . ($no_of_emails[0] / $no_of_emails[$array_count]) * 100  . '" aria-valuemin="0" aria-valuemax="100" style="width:' . ($no_of_emails[0] / $no_of_emails[$array_count]) * 100  . '%"></div>
+            </div>
+        </div>
+        <div class="col-md-6" style="display:none;"> <span> Monthly Emails </span> <span id="MonthlyEmails">  ' .  $monthly_emails[0] . ' </span> <span id="MonthlyEmailsPerccent"> 100% </span>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" id="emails-progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
+            </div>
+        </div>
+        <div class="col-md-6" style="display:none;"> <span> Transactional </span> <span id="Transactional"> ' .  $transactional_array[0] . ' </span> <span id="TransactionalPerccent">  ' . ($transactional_array[0] / $transactional_array[$array_count]) * 100 . '% </span>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" id="transactional-progress" role="progressbar" aria-valuenow="' . ($transactional_array[0] / $transactional_array[$array_count]) * 100 . '" aria-valuemin="0" aria-valuemax="100" style="width:' . ($transactional_array[0] / $transactional_array[$array_count]) * 100 . '%"></div>
+            </div>
+        </div>
+        <div class="col-md-6" style="display:none;"> <span> Segments </span> <span id="Segments">  ' .  $segments_array[0] . '  </span> <span id="SegmentsPerccent"> ' . ($segments_array[0] / $segments_array[$array_count]) * 100 . '% </span>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" id="segments-progress" role="progressbar" aria-valuenow="' . ($segments_array[0] / $segments_array[$array_count]) * 100 . '" aria-valuemin="0" aria-valuemax="100" style="width:' . ($segments_array[0] / $segments_array[$array_count]) * 100 . '%"></div>
+            </div>
+        </div>
+        <div class="col-md-6" style="display:none;"> <span> Triggers </span> <span id="Triggers"> ' .  $triggers_array[0] . ' </span> <span id="TriggersPerccent"> ' . ($triggers_array[0] / $triggers_array[$array_count]) * 100 . '% </span>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" id="triggers-progress" role="progressbar" aria-valuenow="' . ($triggers_array[0] / $triggers_array[$array_count]) * 100 . '" aria-valuemin="0" aria-valuemax="100" style="width:' . ($triggers_array[0] / $triggers_array[$array_count]) * 100 . '%"></div>
+            </div>
+        </div>
+        <div class="col-md-6" style="display:none;"> <span> IP </span> <span id="IP"> ' .  $ip_array[0] . ' </span> <span id="IPPerccent"> 100% </span>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" id="ip-progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script src="../../assets/js/jquery.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="../../assets/vendor/aos/aos.js"></script>
+  <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <script src="../../assets/js/main.js"></script>
+  <script src="./js/mbSlider.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $.ajax({
+        url: "./curl.php", // form action url
+        type: 'GET', // form submit method get/post
+        crossDomain: true,
+        data: [],
+        success: function (response) {
+            //var obj = JSON.parse(response);
+            $("#data").html(response);
+            console.log(response);
+            setTimeout(() => {
+              $("#loading").hide();
+            }, 1000);
+        }
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>
