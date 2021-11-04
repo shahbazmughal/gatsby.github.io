@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://mumara-new.netlify.app/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/sms/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/smsplus/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic-esp/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/one/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/about-us/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/contact-us/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/request-demo/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/pricing/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/cohesive-process-of-automation/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/reporting-and-statistics/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/smart-segments/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/multiple-smtpssending-nodes/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/triggers/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/integrated-email-delivery-services/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/contact-management/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/email-list-management/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/regular-or-evergreen-email-campaigns/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/split-testing/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/bounces-and-spam-processing/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/sendingmasking-domains/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/content-personalization/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/web-forms/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/staff-management/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/multithreading/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/auto-backup/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/auto-upgrade/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/sms/sms-feature/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/sms/pricing/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/sms/sms-feature/validation/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/smsplus/pricing/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/smsplus/adminstrative-control/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/smsplus/client-management/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/smsplus/fully-featured-client-panel/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/smsplus/packages-and-pricing-plans/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/smsplus/multi-gateway-integration/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/smsplus/admin-staff-management/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/smsplus/billing-system-integration/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/smsplus/tools/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/pricing/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/multi-mta/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/speed-multiplicity-of-options/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/multithreading/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/domain-masking/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/powermta-configuration/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic-esp/pricing/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic-esp/sending-server-configuration/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic-esp/client-portal/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic-esp/white-label-sending/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic-esp/admin-management-tools/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/one/features/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/one/pricing/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/one/testimonials/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/one/blog/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/one/marketing-cheatsheet/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/flexibility-customization/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/customize-message-headers/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/request-demo/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/email-builder/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/campaigns/features/white-labeling/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/sms/sms-feature/organization/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/sms/sms-feature/personalization/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/sms/sms-feature/smart-sending/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/sms/sms-feature/sender-id/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/sms/sms-feature/insights/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/smsplus/priority-zones/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/smsplus/validation-module/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/dynamic-content-tags/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/spin-tag/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/auto-backups/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/user-management/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/reputation-monitoring/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/adstation-integrated/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/maintain-clean-email-list/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/segmentation-and-export/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/feedback-loops-processor/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/email-automation/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic/features/advanced-reporting/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic-esp/manage-ips-ip-blocks/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/classic-esp/client-management/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/one/marketing-glossary/</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mumara-new.netlify.app/one/marketing-cheatsheet/pdf/checklist.pdf</loc>
+  <lastmod>2021-11-04T13:57:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
