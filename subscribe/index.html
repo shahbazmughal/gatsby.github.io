@@ -1,0 +1,116 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Subscribe with us | Mumara</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="font/flaticon.css">
+    <!-- Magic popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Vegas CSS -->
+    <link rel="stylesheet" href="vendor/vegas/vegas.min.css">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="css/fxt-animation.css">
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&amp;display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loading" id="loading">
+      <div class="loader"></div>
+    </div>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->   
+    <div class="wrapper">
+        <!-- Main Body Area Start Here -->                       
+        <div class="fxt-template-layout4">
+            <div class="fxt-main-content has-animation" id="vegas-slide" data-vegas-options='{"delay":4000, "timer":true, "transition":"fade", "slides":[{"src": "media/figure/bg10.jpg"}, {"src": "media/figure/bg11.jpg"}, {"src": "media/figure/bg3.jpg"}, {"src": "media/figure/bg9.jpg"}]}'>        
+                
+            </div>
+        </div>
+        <!-- Main Body Area End Here -->  
+        <!-- Modal Area Start Here -->
+        <div class="modal fade" id="subscribe" tabindex="-1" role="dialog" data-backdrop="false" aria-modal="true" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="notify-icon">
+                            <img src="media/elements/bell-icon.png" alt="Bell">
+                        </div>
+                        <div class="logo">
+                            <img src="media/logo.png">
+                        </div>
+                        <h2 class="item-title">Subscribe Now</h2>
+                        <p>Always stay in the know, dont miss a single marketing update or tip from our intelligence powered Mumara research and global trends!</p>
+                        <form action="curl.php" class="subscribe-form" method="POST" data-pixsaas="newsletter-subscribe">
+                            <div class="input-group stylish-input-group">
+                                <div class="item-icon">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <input type="text" name="fullname" class="form-control" id="newsletter-form-name" placeholder="Enter your Name" required>
+                            </div>
+                            <div class="input-group stylish-input-group">
+                                <div class="item-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <input type="email" name="email" class="form-control" id="newsletter-form-email" placeholder="Enter your Email" required>
+                                <span class="input-group-addon">
+                                    <button type="submit">Subscribe</button>
+                                </span>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-result alert">
+                                <div class="content"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Area End Here -->
+    </div>
+    <!-- jquery-->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Pace Preloader js -->
+    <script src="js/pace.min.js"></script>
+    <!-- Imagesloaded js -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>   
+    <!-- Magic Popup js -->
+    <script src="js/jquery.magnific-popup.min.js"></script> 
+    <!-- Vegas js -->
+    <script src="vendor/vegas/vegas.min.js"></script>
+    <!-- Countdown js -->
+    <script src="js/jquery.countdown.min.js"></script>
+    <!-- Validator js -->
+    <script src="js/validator.min.js"></script>
+    <!-- Custom Js -->
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#subscribe").modal("show");
+        });
+    </script>
+    
+
+</body>
+</html>
