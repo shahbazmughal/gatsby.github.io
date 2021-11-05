@@ -410,8 +410,8 @@ header.team-title p {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: 15px;
+  right: 95px;
+  bottom: 25px;
   z-index: 99999;
   background: #6366f1;
   width: 40px;
